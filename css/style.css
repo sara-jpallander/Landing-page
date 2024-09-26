@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #fafafa;
+    background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -68,6 +68,7 @@ header {
     color: white;
     padding: 5%;
     font-size: large;
+    margin-top: 100%;
 }
 
 h1 {
@@ -91,6 +92,50 @@ header button {
 
 /* Main */
 main {
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 10%;
+}
+
+/* Main top */
+.main-top {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.main-top .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-top img {
+    width: 3vh;
+}
+
+.main-top section {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main bottom */
+.main-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.card-button img {
+    width: 10px;
 }
