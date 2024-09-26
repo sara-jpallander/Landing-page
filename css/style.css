@@ -1,1 +1,46 @@
 @import url(./index.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    padding: 2%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 5vh;
+    list-style: none;
+}
+
+.tail-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh
+}
+
+.logo {
+    width: 15vh;
+}
+
+.search {
+    width: 3vh;
+    align-self: flex-end;
+}
