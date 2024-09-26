@@ -52,7 +52,9 @@ ul {
 
 /* Header */
 header {
-    background-image: url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt84af0b0f4c7ad4f2/66d7e4dabe0a562a6c9cf24e/xc90-phev-hero-21x9-desktop.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1);
+    background-image: url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt84af0b0f4c7ad4f2/66d7e4dabe0a562a6c9cf24e/xc90-phev-hero-21x9-desktop.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-blend-mode: darken;
+    background-position: 40%;
     width: 100%;
     height: 100%;
     display: flex;
@@ -96,13 +98,14 @@ main {
     flex-direction: column;
     justify-content: center;
     margin: 5% 10%;
+    gap: 3vh;
 }
 
 /* Main top */
 .main-top {
     display: flex;
     justify-content: center;
-    gap: 5vh;
+    gap: 2vh;
 }
 
 .main-top .title {
@@ -111,31 +114,38 @@ main {
 }
 
 .main-top img {
-    width: 3vh;
+    width: 2.5vh;
 }
 
 .main-top section {
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
+    width: 50vh;
 }
 
 /* Main bottom */
 .main-bottom {
     display: flex;
     justify-content: space-between;
+    gap: 2vh;
 }
 
-.card img {
+.card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+.promo-pic {
     width: 100%;
+    height: 40vh;
+    object-fit: cover;
 }
 
 .card-button {
     display: flex;
     align-items: center;
     gap: 2%;
-}
-
-.card-button img {
-    width: 10px;
 }
