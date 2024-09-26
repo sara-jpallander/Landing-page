@@ -1,5 +1,6 @@
 @import url(./index.css);
 
+/* General */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,14 +9,18 @@
 
 body {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     background-color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Navigation header */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     width: 100%;
     height: 10vh;
     background-color: white;
@@ -43,4 +48,48 @@ ul {
 .search {
     width: 3vh;
     align-self: flex-end;
+}
+
+/* Header */
+header {
+    background-image: url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt84af0b0f4c7ad4f2/66d7e4dabe0a562a6c9cf24e/xc90-phev-hero-21x9-desktop.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    align-self: flex-end;
+    color: white;
+    padding: 5%;
+    font-size: large;
+}
+
+h1 {
+    margin-bottom: 2vh;
+}
+
+header button {
+    all: unset;
+    width: 30%;
+    align-self: flex-end;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 4% 6%;
+    border-radius: 5px;
+    margin: 5% 0;
+    text-shadow: none;
+    font-size: medium;
+}
+
+/* Main */
+main {
+    
 }
