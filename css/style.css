@@ -201,11 +201,10 @@ main {
     margin-top: auto;
     font-weight: bold;
     border-bottom: 2px solid white;
-    width: 25%;
 }
 
 .card-button:hover {
-    border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 
 /* Footer */
