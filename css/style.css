@@ -27,14 +27,14 @@ nav {
     padding: 2%;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: center;
     gap: 5vh;
     list-style: none;
 }
 
-li {
+nav li {
     font-weight: 500;
     background-color: #fafafa;
     padding: 5px 7px;
@@ -43,7 +43,7 @@ li {
     transition: 0.3s;
 }
 
-li:hover {
+nav li:hover {
     background-color: #e1e1e1;
 }
 
@@ -86,7 +86,7 @@ li:hover {
 
 /* Header */
 header {
-    background-image: url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt84af0b0f4c7ad4f2/66d7e4dabe0a562a6c9cf24e/xc90-phev-hero-21x9-desktop.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt84af0b0f4c7ad4f2/66d7e4dabe0a562a6c9cf24e/xc90-phev-hero-21x9-desktop.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1), linear-gradient(rgba(55, 0, 0, 0.2), rgba(55, 0, 0, 0.2));
     background-blend-mode: darken;
     background-position: 40%;
     width: 100%;
@@ -99,7 +99,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: right;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397); */
     align-self: flex-end;
     color: white;
     padding: 5%;
@@ -107,8 +107,14 @@ header {
     margin-top: 100%;
 }
 
-h1 {
-    margin-bottom: 2vh;
+.text-box h1 {
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+    font-size: 40px;
+}
+
+.text-box h3 {
+    font-size: large;
 }
 
 header button {
@@ -121,7 +127,7 @@ header button {
     font-weight: bold;
     padding: 4% 6%;
     border-radius: 5px;
-    margin: 5% 0;
+    margin: 7% 0;
     text-shadow: none;
     font-size: medium;
     transition: 0.3s;
