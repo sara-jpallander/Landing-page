@@ -138,8 +138,8 @@ main {
     flex-direction: column;
     justify-content: center;
     /* margin: 2vh; */
-    padding: 5%;
-    gap: 10vh;
+    padding: 5% 10%;
+    gap: 15vh;
 }
 
 /* Main top */
